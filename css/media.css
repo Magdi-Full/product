@@ -107,6 +107,9 @@
       }
     }
   }
+  body {
+    max-width: 758px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -128,6 +131,9 @@
         }
       }
     }
+  }
+  body {
+    max-width: 630px;
   }
 }
 
@@ -205,5 +211,11 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 475px) {
+  body {
+    max-width: 465px;
   }
 }
